@@ -4,8 +4,8 @@ Depends: methods
 Suggests: grDevices, graphics, snow
 Title: The package deals with Operations Research LOCational Analysis
         models
-Version: 3.0
-Date: 2010-04-05
+Version: 3.1
+Date: 2010-04-21
 Author: Fernando Fernandez-Palacin <fernando.fernandez@uca.es> and
         Manuel Munoz-Marquez <manuel.munoz@uca.es>
 Maintainer: Manuel Munoz-Marquez <manuel.munoz@uca.es>
@@ -16,6 +16,6 @@ Description: This version of the package deals with the min-sum ocation
         minimized.
 License: GPL (>= 2)
 URL: http://knuth.uca.es/orloca
-Packaged: 2010-04-05 05:39:15 UTC; mmarquez
+Packaged: 2010-04-21 21:05:49 UTC; mmarquez
 Repository: CRAN
-Date/Publication: 2010-04-05 07:54:16
+Date/Publication: 2010-04-22 06:21:11
