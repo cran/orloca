@@ -4,8 +4,8 @@ Depends: methods
 Suggests: grDevices, graphics, png, snow, ucminf
 Title: The package deals with Operations Research LOCational Analysis
         models
-Version: 4.0
-Date: 2012-05-08
+Version: 4.1
+Date: 2012-12-26
 Author: Fernando Fernandez-Palacin <fernando.fernandez@uca.es> and
         Manuel Munoz-Marquez <manuel.munoz@uca.es>
 Maintainer: Manuel Munoz-Marquez <manuel.munoz@uca.es>
@@ -14,8 +14,8 @@ Description: This version of the package deals with the min-sum
         min-sum location problem search for a point such that the
         weighted sum of the distances to the demand points are
         minimized.
-License: GPL (>= 2)
+License: GPL (>= 3)
 URL: http://knuth.uca.es/orloca
-Packaged: 2012-05-09 08:38:30 UTC; mmarquez
+Packaged: 2012-12-26 21:59:46 UTC; mmarquez
 Repository: CRAN
-Date/Publication: 2012-05-09 10:04:32
+Date/Publication: 2012-12-27 06:26:34
