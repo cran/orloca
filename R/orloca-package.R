@@ -16,9 +16,9 @@
 #' 
 #' Type:      Package
 #' 
-#' Version:   4.3
+#' Version:   4.5
 #' 
-#' Date:      2017-10-24
+#' Date:      2018-04-23
 #' 
 #' License:   GPL (>= 3)
 #' }
