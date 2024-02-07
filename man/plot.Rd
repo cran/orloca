@@ -10,8 +10,8 @@
   x,
   xlab = "",
   ylab = "",
-  main = paste(gettext("Plot of loca.p", domain = "R-orloca"), ifelse(x@label == "", "",
-    paste0(": \\"", x@label, "\\""))),
+  main = paste(gettext("Plot of loca.p"), ifelse(x@label == "", "", paste0(": \\"",
+    x@label, "\\""))),
   img = NULL,
   xlim = c(min(xleft, min(x@x)), max(xright, max(x@x))),
   ylim = c(min(ybottom, min(x@y)), max(ytop, max(x@y))),
@@ -54,7 +54,7 @@ The function plots the required graphics.
 This method provides a graphical representations of an object of class \code{loca.p}.
 }
 \details{
-The function plots the demand points with automatic limits evaluation.
+The function plots demand points by evaluating limits automatically.
 }
 \examples{
 # A new unweighted loca.p object

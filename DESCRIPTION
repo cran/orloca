@@ -6,8 +6,8 @@ Suggests: orloca.es, testthat (>= 3.0.0)
 ByteCompile: true
 VignetteBuilder: knitr
 Title: Operations Research LOCational Analysis Models
-Version: 5.3
-Date: 2023-05-16
+Version: 5.6
+Date: 2024-01-31
 Encoding: UTF-8
 Author: Manuel Munoz-Marquez <manuel.munoz@uca.es>
 Maintainer: Manuel Munoz-Marquez <manuel.munoz@uca.es>
@@ -16,11 +16,11 @@ Description: Objects and methods to handle and solve the min-sum location proble
 Language: en, es
 License: GPL (>= 3)
 URL: http://knuth.uca.es/orloca/
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 Repository: CRAN
 Repository/R-Forge/Project: orloca
-Repository/R-Forge/Revision: 61
-Repository/R-Forge/DateTimeStamp: 2023-05-16 09:46:31
-Date/Publication: 2023-05-16 11:10:02 UTC
+Repository/R-Forge/Revision: 64
+Repository/R-Forge/DateTimeStamp: 2024-02-01 10:47:09
+Date/Publication: 2024-02-07 13:20:02 UTC
 NeedsCompilation: no
-Packaged: 2023-05-16 10:04:12 UTC; rforge
+Packaged: 2024-02-01 11:05:21 UTC; rforge

@@ -14,7 +14,7 @@
 #' Since \eqn{l_2} norm is the Euclidean norm, when \eqn{p=2} \code{distsumlpmin} are equal to \code{distsummin}.
 #' But the computations involved are greater for the first form.
 #' 
-#' max.iter for SANN algorithm is the number of evaluation of objective function, so this methos usually requires large values of max.iter to reach optimal value
+#' max.iter for SANN algorithm is the number of evaluation of objective function, so this method usually requires large values of max.iter to reach optimal value
 #' @param o An object of loca.p class.
 #' @param x The x coordinate of the starting point. It's default value is 0.
 #' @param y The y coordinate of the starting point. It's default value is 0.
@@ -52,7 +52,7 @@ function (o, x=0, y=0, lp=numeric(0), max.iter=100000, eps=1.e-3, verbose=FALSE,
    {
      if (length(lp) == 0) return(distsuml2min(o=o, x=x, y=y, max.iter=max.iter, eps=eps, verbose=verbose, algorithm=algorithm, ...))
      else if (lp >= 1) return(distsumlpmin(o=o, x=x, y=y, p=lp, max.iter=max.iter, eps=eps, verbose=verbose, algorithm=algorithm, ...))
-     else stop(paste(lp, gettext("is not a valid value for lp, use 1 <= lp", domain = "R-orloca")))
+     else stop(paste(lp, gettext("is not a valid value for lp, use 1 <= lp")))
    }
 )
 
